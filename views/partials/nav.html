@@ -1,17 +1,17 @@
 <header id="js-header" style="background-color:<%- darkColor %>">
   <div class="logo">
     <a href="/">
-      <span class="logo__big">Code for America</span><span class="logo__small">CfA</span>  &nbsp;&nbsp; 2014 Annual Report
+      <span class="logo__big">Code for Croatia</span><span class="logo__small">CfC</span>  &nbsp;&nbsp; 2015 godišnji izvještaj
     </a>
   </div>
   <nav class="nav">
     <ul class="u-unstyled u-row">
 
-      <li class="currently">Currently Reading:</li>
+      <li class="currently">Čitate:</li>
       <% if (data.opener) { %>
         <% opener = data.opener[0] %>
         <li class="
-        <% if (title == "Introduction") { %>
+        <% if (title == "Uvod") { %>
         active
         <% } %>
         "><a href="/"><%- opener['category'] %></a></li>
